@@ -34,3 +34,4 @@ let convertFahrenheit = function(fahrenheit) {
 
 let fahrenheitConverted = convertFahrenheit(32)
 console.log(`${fahrenheitConverted.fahrenheit} Fahrenheit is ${fahrenheitConverted.kelvin} Kelvin or ${fahrenheitConverted.celsius} Celsius.`)
+console.log(fahrenheitConverted)
