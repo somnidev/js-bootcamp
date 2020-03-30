@@ -22,11 +22,10 @@ const filters = {
 
 const renderTodos = function (todos, filters) {
 
-    const hidecompleted = todos.filter(function (todo) {
-        return !filters.hidecompleted || !todo.completed
-    })
     const filteredTodos = hidecompleted.filter(function (todo) {
-        return todo.text.toLowerCase().includes(filters.searchText.toLowerCase())
+        const hidecompleted = !filters.hidecompleted || !todo.completed
+        const searchMatches = todo.text.toLowerCase().includes(filters.searchText.toLowerCase())
+        return searchMatches && hidecompleted
     })
 
     const incompleteTodos = filteredTodos.filter(function (todo) {
@@ -65,7 +64,6 @@ document.querySelector('#new-todo').addEventListener('submit', function (e) {
 })
 
 document.querySelector('#hide-completed').addEventListener('change', function(e) {
-    console.log(e.target.checked)
     filters.hidecompleted = e.target.checked
     renderTodos(todos, filters)
 })
