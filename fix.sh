@@ -1,0 +1,10 @@
+cd 14-cutting-edge-javascript/14-18-notes-conv-real-4/notes-app; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-03-babel-so/boilerplate; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-07-webpack/boilerplate; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-22-rest-parameter/boilerplate; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-19-todo-conv-1-challenge/boilerplate; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-19-todo-conv-1-challenge/notes-app; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-19-todo-conv-1-challenge/todo-app; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-07-webpack-test/boilerplate; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-07-webpack-test/webpack-demo; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
+cd 14-cutting-edge-javascript/14-13-notes-conv-1-so/hangman; git add .; git ci -m"ncu -u"; cd -;ncu -u; git add .; git ci -m"ncu -u"; cd -;
